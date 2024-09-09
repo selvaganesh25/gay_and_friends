@@ -13,8 +13,25 @@ public class Main {
 		window.setVisible(true);
 		
 		GameBoard gameboard = new GameBoard();
+		
 		window.add(gameboard);
 		window.pack();
 		
+		gameboard.startGameTheard();
+		
+		
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
